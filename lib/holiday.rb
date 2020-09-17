@@ -17,7 +17,6 @@ def second_supply_for_fourth_of_july(holiday_hash)
        :memorial_day => ["BBQ"]
      }
    }
-   binding.pry
    return holiday_supplies[:summer][:fourth_of_july][2]
 end
 
